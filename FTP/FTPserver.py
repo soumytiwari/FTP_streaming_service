@@ -24,7 +24,8 @@ class Server(threading.Thread):
         self.authrized = False
         # self.rest = False
         self.mode = 'I' #ASCII or 'I' Binary
-        self.basedir = os.path.abspath('C:\\Users\\Utkarsh\\Videos\\')
+        # self.basedir = os.path.abspath('C:\\Users\\Utkarsh\\Videos\\')
+        self.basedir = os.path.abspath('C:\\Users\\Asus\\Videos\\')
         self.cwd = self.basedir
         #self.datasock_timeout = 60  # TODO 
         self.authenticated_users = {'user1': 'password1', 'user2': 'password2'}
